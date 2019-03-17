@@ -2,7 +2,7 @@
 #then using the extend would change the original list
 
 #implicit explnation:
-#I guess this might have something to with python language feature
+#I guess this might have something to do with python language feature
 #when you use list3 = list1, you might use the same memory with a different name
 #this is probably why you change list3 then list1 changes as well. 
 #so I guess using copy a new memory was given. 
