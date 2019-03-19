@@ -1,4 +1,4 @@
-#This programs show that commentting should use # rather than """ """
+#This programs show that commentting should use # rather than """ """ or ''' '''
 #As you can see that three quotes crash the program
 #It returns an indent error to you 
 
