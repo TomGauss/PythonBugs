@@ -1,7 +1,15 @@
 #This programs show that commentting should use # rather than """ """ or ''' '''
 #As you can see that three quotes crash the program
 #It returns an indent error to you 
+#Thanks for stackoverflow master programmer, this get solved.
+#Refer to:https://stackoverflow.com/questions/55239429/triple-quoted-strings-comments-crash-simple-python-program#55239511
+"""
+you should push the indentation level of you triple-quote strings one tag to the right.
 
+Although triple-quote strings are often used as comments, they are normal python expressions,
+
+so they should follow the language's syntax.
+"""
 def main():
     print("let's do something")
 #Try using hashtag to comment this block to get code working
